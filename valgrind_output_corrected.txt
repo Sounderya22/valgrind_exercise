@@ -1,0 +1,17 @@
+==75624== Memcheck, a memory error detector
+==75624== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==75624== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==75624== Command: ./build/app/shell-app
+==75624== 
+Averaged sensor reading: 10
+DONE
+==75624== 
+==75624== HEAP SUMMARY:
+==75624==     in use at exit: 0 bytes in 0 blocks
+==75624==   total heap usage: 4 allocs, 4 frees, 73,772 bytes allocated
+==75624== 
+==75624== All heap blocks were freed -- no leaks are possible
+==75624== 
+==75624== For lists of detected and suppressed errors, rerun with: -s
+==75624== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
